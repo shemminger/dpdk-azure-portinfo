@@ -28,25 +28,15 @@
 *.so.*
 *.dylib
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+.*
+!.gitignore
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# resulting program etc
+dpdk-portinfo
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# build artifacts
+_install
+_postbuild
+_postinstall
+_preinstall
+build
